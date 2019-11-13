@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text, StyleSheet, TouchableHighlight } from 'react-native'
 
-const Button = ({ submitTodo }) => (  // stateless component
+const Button = ({ submitTodo }) => (  // stateless component, destructures the submitTodo function, which was passed as a prop to the component
     <View 
         style={styles.buttonContainer}>
         <TouchableHighlight 
